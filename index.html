@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Devchallenges</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        box-sizing: border-box;
+      }
+
+      nav {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      
+      nav a {
+        color: #000;
+        font-size: 1.2rem;
+        padding-left: 80px;
+        font-weight: 500;
+        font-family: 'Inconsolata', monospace;
+      }
+
+      .welcome {
+        margin-top: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 80px;
+        flex-wrap: wrap;
+        gap: 50px;
+      }
+
+      .welcome img {
+        width: 550px;
+        height: 500px;
+        padding: 10px;
+      }
+
+      .welcome .content {
+        height: 500px;
+        width: 630px;
+      }
+
+      .content h1 {
+        font-size: 64px;
+        font-weight: 700;
+        font-family: 'Space Mono', monospace;
+      }
+
+      .content p {
+        width: 70%;
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: 400;
+        font-family: 'Space Mono', monospace;
+      }
+
+      .content button {
+        margin-top: 30px;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 5px;
+        background-color: #000;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family: 'Space Mono', monospace;
+        cursor: pointer;
+      }
+
+
+      /* Responsive */
+      @media (max-width: 1366px) {
+        html {
+          font-size: 75%;
+        }
+      }
+      @media (max-width: 768px) {
+        html {
+          font-size: 62.5%;
+        }
+      }
+      @media (max-width: 450px) {
+        *, html, body {
+          font-size:55%;
+        }
+
+        nav a {
+          font-size: 3rem;
+          font-weight: 900;
+          padding: 35px;
+        }
+
+        .welcome {
+          padding: 0;
+          justify-content: center;
+        }
+
+        .welcome img {
+          width: 300px;
+          height: 300px;
+          padding: 0;
+        }
+
+        .welcome .content {
+          width: 100%;
+          padding: 20px;
+          height: 50%;
+        }
+
+        .content h1{
+          font-size: 4rem;
+        }
+
+        .content p {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="">404 not found</a>
+    </nav>
+    <section class="welcome">
+      <img src="Scarecrow.png">
+      <div class="content">
+        <h1>I have bad news for you</h1>
+        <p>
+          The page you are looking for might be removed or is temporarily
+          unavailable
+        </p>
+        <button>Back to homepage</button>
+      </div>
+    </section>
+  </body>
+</html>
